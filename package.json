@@ -1,0 +1,21 @@
+{
+  "name": "es_restart",
+  "version": "1.0.0",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/LambdaDriver/es_restart.git"
+  },
+  "description": "Rolling restart for ElasticSearch clusters",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dave Snigier dsnigier@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^0.9.0",
+    "backo": "^1.1.0",
+    "node-sshclient": "^0.2.0",
+    "request": "^2.54.0"
+  }
+}
